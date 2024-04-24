@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/imagen/fondo_hojas.jpg);
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+header,
+footer,
+section {
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+
+.destacado_frase {
+    color: #4B6363;
+}
+
+/** estilos para los campos input */
+.contenedor_input {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#textarea {
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+}
+
+.container_button {
+    cursor: default;
+    cursor: pointer;
+    display: flex;
+    float: left;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button {
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#ubicacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#cuadrito h2,
+.subtitulos {
+    color: #725866;
+}
+
+#cuadrito {
+    /* background-color:rgb(173, 235, 178); */
+    padding: 20px;
+
+}
+
+.mapa iframe {
+    width: 450px;
+    height: 350px;
+    border: 0;
+    position: relative;
+    padding: 5px 5px;
+    /*  top: 0;
+    left: 0; */
+}
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+    background-color: #725866;
+    /* color: #fff; */
+    padding: 20px 0;
+}
+
+.footer a,
+footer b,
+footer c {
+    /* color: #fff; */
+    text-decoration: none;
+    margin: 0 10px;
+    color: #F5F0DA;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    text-wrap: balance;
+    position: relative;
+    padding: 20px 50px;
+
+}
+
+.footer-section {
+    flex-basis: 40%;
+    /*  Ajusta el ancho de cada sección según tus necesidades
+ */
+}
